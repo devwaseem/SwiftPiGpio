@@ -55,6 +55,10 @@ public class SwiftPiGpio {
         gpioTerminate()
     }
 
+    func version() -> UInt32 {
+        return gpioVersion()
+    }
+
     /**
         Throws error if status is less than 0
 

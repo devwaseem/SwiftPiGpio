@@ -6,7 +6,7 @@ final class SwiftPiGpioTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SwiftPiGpio().text, "Hello, World!")
+        XCTAssertEqual(SwiftPiGpio.shared!.version(), UInt32(78))
     }
 
     static var allTests = [
