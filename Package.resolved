@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftPiGpioLib",
+        "repositoryURL": "https://github.com/devwaseem/SwiftPiGpioLib",
+        "state": {
+          "branch": null,
+          "revision": "da5145be64f0f554d4b909b38d300ce9e6edc5ce",
+          "version": "0.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
