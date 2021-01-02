@@ -7,9 +7,9 @@ let package = Package(
     name: "SwiftPiGpio",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
-        // .library(
-        //     name: "SwiftPiGpio",
-        //     targets: ["SwiftPiGpio"]),
+        .library(
+            name: "SwiftPiGpio",
+            targets: ["SwiftPiGpio"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SwiftPiGpio",
-            dependencies: ["SwiftPiGpioLib"]),
+            dependencies: []),
         .testTarget(
             name: "SwiftPiGpioTests",
             dependencies: ["SwiftPiGpio"]),
